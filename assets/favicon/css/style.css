@@ -62,7 +62,7 @@ nav{
 }
 
 #nav-toggle:checked~nav{
-display: block;
+    display: block;
 }
 
 #nav-toggle{
@@ -89,4 +89,28 @@ main{
 
 footer{
     background-color: aqua;
+}
+
+/*Media query: tablets and larger (768px and up)*/
+@media screen and (min-width: 768px){
+    /* Header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right:1rem ;
+    }
+
+    header ul{
+        display: flex;
+    }
+
+    header ul > li{
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label{
+        display:none;
+    }
 }
