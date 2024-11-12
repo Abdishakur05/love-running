@@ -48,6 +48,9 @@ header li{
     border-bottom: 1px solid #3a3a3a;
 }
 
+.unactive {
+    border-bottom: none; /* Applied to "Gallery" and "Sign Up" */
+}
 /*Navbar styles with dropdown toggle*/
 
 nav{
@@ -125,6 +128,14 @@ footer{
         /*Main content*/
         /*Push main content down to accommodate larger header*/
         margin-top: 62px;
+
+    }
+    /*Media query: laptops and larger (992px and up)*/
+    @media screen and (min-width: 992px){
+      
+        a:hover{
+        border-bottom: 1px solid #3a3a3a;
+       } 
 
     }
 }
