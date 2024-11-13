@@ -84,10 +84,15 @@ h1{
 
 
 main{
-    background-color: lightblue;
+    
     /*Make main element take up any surplus space to push footerdown*/
     flex: 1 0 auto;
     margin-top: 47px;
+}
+#hero{
+    height: 600px;
+    width: 100%;
+    background-color: lightgreen;
 }
 
 footer{
