@@ -90,9 +90,9 @@ main{
     margin-top: 47px;
 }
 #hero{
-    height: 600px;
+    height: 850px;
     width: 100%;
-    background-color: lightgreen;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
 }
 
 #social-networks{
