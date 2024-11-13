@@ -95,8 +95,21 @@ main{
     background-color: lightgreen;
 }
 
+#social-networks{
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-evenly;
+}
+
+#social-networks i{
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 footer{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 /*Media query: tablets and larger (768px and up)*/
