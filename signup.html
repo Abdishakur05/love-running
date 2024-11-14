@@ -36,15 +36,74 @@
     </header>
 
     <main>
-        <!-- The Main Content is where most of the information in the website is stored-->
-       Main Content
+       <section id="signup">
+        <form id="signup-form"  action="https://formdump.codeinstitute.net" method="Post">
+            <h2> lets get you signed up!</h2>
+            <label for="first-name">First Name</label>
+            <input type="text" id="firstname" name="first_name" class="text-input" required>  
+            <br>
+            
+            <label for="last-name">Last Name</label>
+            <input type="text" id="lastname" name="last_name"  class="text-input" required>  
+            <br>
+            
+            <label for="email">Email Address</label>
+            <input type="email"  id="email-address" name="email_address"  class="text-input" required>  
+            <br>
+
+            <div class="radio-buttons">
+                <div>
+                    <label for="road">Road</label>
+                    <input type="radio" name="running_preference" id="road" value="road" required checked>
+                </div>
+
+                <div>
+                    <label for="trail">Trail</label>
+                    <input type="radio" name="running_preference" id="trail" value="trail" required checked>
+
+                </div>
+               
+                <div>
+                    <label for="both">both</label>
+                    <input type="radio" name="running_preference" id="both" value="both" required checked>
+
+
+                </div>
+            </div>
+
+            <button type="submit" class="join-button">Let's Run!</button>
+
+        </form>
+       </section>
+
+
     </main>
 
        
 
     <footer>
-        <!-- The Footer is located at the bottom of the page and is where the social medias and the location of the website are stored-->
-        Footer
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
 </body>
 </html>
