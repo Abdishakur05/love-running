@@ -17,6 +17,10 @@ body {
     color: #3a3a3a;
     font-family: 'Lato', sans-serif;
 }
+    
+.hidden-heading{
+    display: none;
+}
 
 h1,
 h2,
